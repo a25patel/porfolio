@@ -1,64 +1,133 @@
-html{
+/*
+Color Combination:
+  Pink: #f72349;
+  Yellow:#fae474;
+  Lime:#bbe883;
+  Teal:#50bf94;
+  Purple:#a3568e;
+  Orange:#ff8456;
+  Gray: #5d5958;
+*/
+
+.main   {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2.5%;
+  background-color: yellow;
+}
+
+.wrapper {
+  width: 70%;
+  height: auto;
+  border: black solid 2px;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: orange;
+}
+
+.content{
+  width: 32%;
+  height: auto;
+  border: black solid 1px;
+  padding: 0;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 2.5%;
+  min-width: 125px;
+  background-color: gray;
+}
+
+.information{
+  width: 100%;
+  height: auto;
+  border: black solid 1px;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 2.5%;
+  min-width: 125px;
   background-color: white;
 }
 
-
-#about{
-  width: 250px;
-  height: 250px;
+.design{
+  width: 125px;
+  height: 125px;
   border-radius: 45% 45% 10% 45%;
-  background: #d9213b;
+  background: #f72349;
   display: inline-block;
+  float: left;
 }
 
-#links{
-  width: 250px;
-  height: 250px;
+.links{
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
   background: #fae474;
   display: inline-block;
+  float: right;
 }
-/*fcd77e*/
 
-#resume{
-  width: 250px;
-  height: 250px;
+.resume{
+  width: 125px;
+  height: 125px;
   border-radius: 30% 10% 30%;
-  background: #62a88c;
+  background: #50bf94;
   display: inline-block;
+  float: right;
 }
 
-#digital{
-  width: 250px;
-  height: 250px;
+/*.resumeInfo{
+  display: none;
+}*/
+
+.development{
+  width: 125px;
+  height: 125px;
   border-radius: 10% 30% 10%;
   background: #bbe883;
   display: inline-block;
+  float: right;
 }
 
-#physical{
-  width: 250px;
-  height: 250px;
+.about{
+  width: 125px;
+  height: 125px;
   border-radius: 45% 45% 45% 10%;
   background: #a3568e;
   display: inline-block;
+  float: left;
 }
 
-#contact{
-  width: 250px;
-  height: 250px;
+.contact{
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
   background: #ff8456;
   display: inline-block;
+  float: right;
 }
-// #off white: #dbc6cb;
 
 
+@media (max-width: 800px) {
+  .content{
+    width: 45%;
+  }
+}
 
-// Second Color Scheme:
-pink: #f72349;
-teal: #50bf94;
+@media (max-width: 650px) {
+}
+
+@media (max-width: 450px) {
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+}
+
+/*// Second Color Scheme:
+pink: #d9213b;
+teal: #62a88c;
 lime: #b9f291;
-orange: #ff835d;
-yellow: #f6dc85;
-gray: #5d5958;
+gray: #5d5958;*/
