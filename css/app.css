@@ -111,9 +111,26 @@ Color Combination:
 }
 
 .footer{
-  background: yellow;
+  margin-top: 3.5%;
   height: auto;
-  width: 100%
+  width: 100%;
+}
+
+.bar1{
+  background: #bbe883;
+  height: 2vh;
+}
+
+.bar2{
+  background: #50bf94;
+  height: 1vh;
+  margin-top: .5%;
+}
+
+.bar3{
+  background: #f72349;
+  height: .5vh;
+  margin-top: .5%;
 }
 
 @media (max-width: 800px) {
