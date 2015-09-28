@@ -42,7 +42,7 @@ Color Combination:
 }
 
 .information{
-  width: 100%;
+  width: auto;
   height: auto;
   border: black solid 1px;
   padding: 0;
@@ -110,6 +110,11 @@ Color Combination:
   float: right;
 }
 
+.footer{
+  background: yellow;
+  height: auto;
+  width: 100%
+}
 
 @media (max-width: 800px) {
   .content{
