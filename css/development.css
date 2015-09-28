@@ -1,0 +1,24 @@
+.developmentInfo{
+  background: blue;
+  height: auto;
+  width: 150%;
+  margin-top: 125px;
+}
+
+
+
+.topLeft{
+  width: 100px;
+  height: 100px;
+  border-radius: 10% 30% 10%;
+  background: #bbe883;
+  display: inline-block;
+}
+
+.topRight{
+  width: 100px;
+  height: 100px;
+  border-radius: 30% 10% 30%;
+  background: #bbe883;
+  display: inline-block;
+}
